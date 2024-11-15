@@ -1,0 +1,72 @@
+/*1. CSS Basics */
+
+/* tag selector */
+h3{
+    color: pink;
+}
+h3{
+    color: violet;text-decoration: line-through;text-decoration: underline;
+}
+/* Last action will be counted. This is the cascading property */
+
+
+
+/*2. CSS Syntax */
+
+selector { property: value;}
+/*class selector */
+.para {
+    font-size: 25px;
+    color: brown;
+}
+/* p.para {
+    color: cadetblue;
+} */
+/* p.para will be applied when it is not in comment. It is CSS specificity  */
+
+
+
+/*3. CSS Selector */
+
+/* Universal selector */
+/*It's applied to all elements at a time*/
+* {
+    box-sizing: border-box ;
+    padding: 0;
+    margin: 0;
+}
+/* Tag selector*/
+/* It's applied to all the same tag */
+h5 {
+    color: red;
+}
+/* Clsss selector */
+/* It's applied to all the similar class. So to use this selector we have to use multiple class in our project */ 
+/* same class can be used in different selector. In this case we have to specify the class by "p.paragraph". This kind of formate.*/
+.paragraph {
+    color: orange;
+}
+/* Id selector */
+/* The currect formation is button#btn or #btn */
+#btn{
+    color: brown;
+}
+/* Attribute selector */
+/* If I use only "a" then all the links will get the same instruction. To avoid this we have to use [href="link"] this formate. */
+a{
+    color: blue;
+}
+/* [href]{
+    color: bisque;
+} */      /* This comment part will be activated if it is not remains as a comment. Because of the cascading property */
+[href="https://yahoo.com"]
+{
+    color: yellow ;
+}
+[href="https://interactivecares.com"]
+{
+    color: pink ;
+}[href="https://youtube.com"]
+{
+    color: indigo ;
+}
