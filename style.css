@@ -70,3 +70,31 @@ a{
 {
     color: indigo ;
 }
+
+
+
+/* 5. CSS Color */
+/* using color name */
+.color-1{
+    color: royalblue;
+}
+/* using hexadeciaml */
+/* https://flatuicolors.com/ */
+.color-2{
+    color: #e67e22;
+}
+/* using RGB colors */
+.color-3{
+    color: rgb(25,120,100);
+}
+/* using RGBA colors */
+/* A is defined as alpha.The height value of A is 1.It controls the contrast or transparency of the color */
+.color-4{
+    color: rgba(255, 0, 0, 0.482)  ;
+}
+/* using HSL (hue,saturaton,lightness) color */
+.color-5{
+    color: hsl(300, 76%, 72%);
+}
+
+
